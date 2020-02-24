@@ -30,7 +30,8 @@ class Perceptron(object):
             y : array-like, shape = [n_samples]
                 Target values
         """
-        self.w_ = np.zeros(1 + X.shape[1])
+        # self.w_ = np.zeros(1 + X.shape[1])
+        self.w_ = np.ones(1 + X.shape[1])
         self.errors_ = []
 
         for _ in range(self.n_iter):
