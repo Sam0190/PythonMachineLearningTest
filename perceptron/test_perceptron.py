@@ -2,7 +2,8 @@ import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
 
-from perceptron.Perceptron import Perceptron, plot_decision_regions
+from perceptron.Perceptron import Perceptron
+from plot_decision_regions import plot_decision_regions
 
 
 def test_perceptron():
